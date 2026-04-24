@@ -77,8 +77,11 @@ app.put("/students/:id", async (req,res) => {
     }
 });
 
+console.log("Hello");
+
 app.listen(PORT, ()=>{
     console.log("Server running on Port " + PORT);
 })
 
 // CRUD - Create, Read, Update, Delete
+
